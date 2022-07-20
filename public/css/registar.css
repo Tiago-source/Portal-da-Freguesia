@@ -1,0 +1,132 @@
+
+
+.sign {
+    padding-top: 40px;
+    color: #333333;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.un {
+width: 76%;
+color: rgb(38, 50, 56);
+font-weight: 700;
+font-size: 14px;
+letter-spacing: 1px;
+background: rgba(136, 126, 126, 0.04);
+padding: 10px 20px;
+border: none;
+border-radius: 20px;
+outline: none;
+box-sizing: border-box;
+border: 2px solid rgba(0, 0, 0, 0.02);
+margin-bottom: 50px;
+
+text-align: center;
+margin-bottom: 27px;
+font-family: 'Ubuntu', sans-serif;
+margin-bottom: 40px;
+}
+
+form.form1 {
+    padding-top: 40px;
+}
+
+
+.un:focus {
+    border: 2px solid rgba(248, 168, 62, 0.446) !important;
+    
+}
+
+
+
+.forgot {
+    text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+    color: #f9b000;
+    padding-top: 15px;
+}
+
+a {
+    text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+    color: #f9b000;
+    text-decoration: none
+}
+
+@media (max-width: 600px) {
+    .main {
+        border-radius: 0px;
+    }
+}
+
+
+  a2 {
+    margin-left: 75%;
+    text-decoration: none;
+    border: 3px solid rgba(248, 168, 62, 0.446);
+    color: transparent;
+    padding: 20px 80px;
+    font-size: 20px;
+    font-family: sans-serif;
+    letter-spacing: 5px;
+    transition: all 0.5s;
+    position: relative; 
+    border-radius: 10px;  
+    
+    padding-left: 88px;
+    top: 66px;
+    margin-left: 84%;
+
+  }
+  a2:before {
+    border-radius: 8px; 
+      cursor: pointer;
+    content: "Registar";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: rgb(143, 141, 141);
+    font-size: 28px;
+    top: 0;
+    left: 100%;
+    font-family: sans-serif;
+    letter-spacing: 5px;
+    transition: all 1s;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transform: scale(0) rotatey(0);
+    opacity: 0;
+  }
+  a2:hover:before {
+    transform: scale(1) rotatey(360deg);
+    left: 0;
+    opacity: 1;
+  }
+  a2:after {
+    border-radius: 8px; 
+    content: "Seguinte";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: rgb(143, 141, 141);
+    font-size: 28px;
+    top: 0;
+    left: 0;
+    font-family: sans-serif;
+    letter-spacing: 5px;
+    transition: all 1s;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transform: scale(1) rotatey(0);
+    opacity: 1;
+  }
+  a2:hover:after {
+    transform: scale(0) rotatey(360deg);
+    left: -100%;
+    opacity: 0;
+  }
+  
